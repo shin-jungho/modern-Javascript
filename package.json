@@ -1,0 +1,24 @@
+{
+  "name": "modern-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shin-jungho/modern-Javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shin-jungho/modern-Javascript/issues"
+  },
+  "homepage": "https://github.com/shin-jungho/modern-Javascript#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
