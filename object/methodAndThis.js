@@ -32,3 +32,16 @@ console.log(calculator.mul());
 // +를 붙혀주어야 숫자로 변경해서 계산되므로 +무조건 붙혀서 해야된다.
 
 // #3
+
+let ladder = {
+  step: 0,
+  up() {
+    this.step++;
+  },
+  down() {
+    this.step--;
+  },
+  showStep: function() { // 사다리에서 몇 번째 단에 올라와 있는지 보여줌
+    alert( this.step );
+  }
+};
